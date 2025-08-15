@@ -95,7 +95,7 @@ def me():
     return jsonify({
         "top_artists_30": top_list,
         "followed_artists_count": len(followed),
-        #"followed_artists": followed
+        "followed_artists": followed
     })
 
 # 로컬 실행시에 main 함수
